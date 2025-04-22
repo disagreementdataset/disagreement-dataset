@@ -16,7 +16,7 @@
 |--------------|-------------|
 | `File name`  | Unique identifier for each clip, beginning with the call name (e.g., `F01_1`) |
 | `Item`       | The survival item being discussed in the clip |
-| `Gender`     | Gender composition of the speakers (`MF` = Male and female, `MM` = both male, 'FF' = both female) |
+| `Gender`     | Gender composition of the speakers (`MF` = Male and female, `MM` = both male, `FF` = both female) |
 | `Rating`     | 'Disagreement' rating given to the clip (percentage of the time the speakers disagree). For classification, ratings < 26 are defined as 'Low Disagreement' and ratings ≥ 26 are 'High Disagreement'.|
 | `Duration`   | Duration of the clip in seconds 
 | `Call`       | Dyadic phone call the clip is from e.g. 'F01' |
