@@ -24,3 +24,28 @@
 | `R Choice`   | Receiver's prior decision on whether to take the item (`Yes`/`No`) |
 | `C Choice`   | Caller's prior decision on whether to take the item (`Yes`/`No`) |
 | `Consensus`  | Final item selection decision made at the end of the conversation (`Yes`/`No`) |
+
+## Paper
+
+If you are using this dataset, please kindly cite this paper.
+
+```bibtex
+@inproceedings{10.1145/3716553.3750754,
+author = {Buker, Areej and Smith, Emily and Perepelkina, Olga and Vinciarelli, Alessandro},
+title = {Multimodal Analysis of Disagreement in Dyadic Conversations: An Approach Based on Emotion Recognition},
+year = {2025},
+isbn = {9798400714993},
+publisher = {Association for Computing Machinery},
+address = {New York, NY, USA},
+url = {https://doi.org/10.1145/3716553.3750754},
+doi = {10.1145/3716553.3750754},
+abstract = {This article proposes a multimodal approach for the detection of disagreement in dyadic conversations, where disagreement means that people express different opinions about a topic under discussion. The key-assumption underlying the work is that people tend to manifest different emotions depending on whether they are disagreeing or not. Therefore, emotions can provide evidence that disagreement is taking place. The experiments were performed over a corpus of 684 clips involving 60 dyads (120 persons and roughly 8 hours of speech). Each clip revolves around a decision-making task and it is annotated in terms of the percentage of time people spend in disagreement. For the sake of reproducibility, the Glasgow Disagreement Corpus, the data used in the experiments, has been made accessible through a link available in the paper. The results show that a multimodal approach based on language and paralanguage can predict such a percentage with Mean Absolute Error 9.7 and correlation 0.52 between actual and predicted percentage of time spent in disagreement.},
+booktitle = {Proceedings of the 27th International Conference on Multimodal Interaction},
+pages = {228–237},
+numpages = {10},
+keywords = {Disagreement detection, multimodal analysis of language and paralanguage, dyadic conversations.},
+location = {
+},
+series = {ICMI '25}
+}
+
